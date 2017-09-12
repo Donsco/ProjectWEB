@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(0, 214, 108);
+}
+
+form {
+    background-color: white;
+    width: 13em;
+}
+
+legend {
+    color: rgb(0, 214, 108);
+}
+
+button {
+    background-color: #2800a0;
+    color: white;
+}
