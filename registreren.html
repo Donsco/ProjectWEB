@@ -1,34 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 
 <head>
     <meta charset="UTF-8">
     <title>Registreren</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
+    <header>
+        <h1>Registreren</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href=""><img src="images/hometrans.png" alt="homeknop"></a>
+                </li>
+                <li> <a href="overzicht.html">Verhalen</a> </li>
+                <li> <a href="">Mijn lijst</a> </li>
+                <li> <a href="">Downloads</a> </li>
+                <li> <a href="registreren.html">Registreren</a> </li>
+                <li> <a href="">Inloggen</a> </li>
+            </ul>
+        </nav>
+    </header>
+
     <form action="overzicht.html">
         <fieldset>
-            <legend>Inloggegevens</legend>
-            <label for="voornaam">Voornaam:</label>
-            <input type="text" id="voornaam">
+            <legend>Vul je gegevens in</legend>
 
-            <label for="achternaam">Achternaam:</label>
-            <input type="text" id="achternaam">
+            <label>Man <input type="radio" name="gender" value="male"></label>
 
-            <label for="email">Email:</label>
-            <input type="text" id="email">
+            <Label>Vrouw <input type="radio" name="gender" value="female"></Label>
 
-            <label for="wachtwoord">Wachtwoord:</label>
-            <input type="text" id="wachtwoord">
+            <label>Voornaam
+                <input type="text">
+            </label>
 
-            <label for="wachtwoord2">Wachtwoord opnieuw invoeren:</label>
-            <input type="text" id="wachtwoord2">
+            <label>Achternaam
+                <input type="text">
+            </label>
 
-            <button type="submit">Registreren</button>
+            <label>Email
+                <input type="email">
+            </label>
+
+            <label>Wachtwoord
+                <input type="text">
+            </label>
+
+            <button type="submit">Klaar!</button>
         </fieldset>
     </form>
+
+    <footer>alle metadata (likes, auteur, datum etc)</footer>
+
+    <img src="images/transavia-logo-stacked-white.svg" alt="logo Transavia">
 </body>
 
 </html>
